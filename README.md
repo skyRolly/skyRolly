@@ -13,6 +13,17 @@ You can click the Preview link to take a look at your changes.
 </div>
 -->
 
-![GitHub Stats Card](https://ghstats.dev/api/card?username=skyRolly&theme=sunset)
-![Top Languages](https://ghstats.dev/api/langs?username=skyRolly&theme=sunset)
-![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=skyRolly&theme=sunset&days=90&width=320&height=80)
+<div align="center">
+  <img
+    src="https://ghstats.dev/api/card?username=skyRolly&theme=sunset"
+    alt="GitHub Stats Card"
+  />
+  <img
+    src="https://ghstats.dev/api/langs?username=skyRolly&theme=sunset"
+    alt="Top Languages"
+  />
+  <img
+    src="https://ghstats.dev/api/sparkline?username=skyRolly&theme=sunset&days=90&width=320&height=80"
+    alt="Contribution Sparkline"
+  />
+</div>
