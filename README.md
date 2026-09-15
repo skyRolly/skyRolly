@@ -18,12 +18,16 @@ You can click the Preview link to take a look at your changes.
     src="https://ghstats.dev/api/card?username=skyRolly&theme=sunset"
     alt="GitHub Stats Card"
   />
+</div>
+<div align="center">
   <img
     src="https://ghstats.dev/api/langs?username=skyRolly&theme=sunset"
     alt="Top Languages"
   />
+</div>
+<div align="center">
   <img
-    src="https://ghstats.dev/api/sparkline?username=skyRolly&theme=sunset&days=90&width=320&height=80"
+    src="https://ghstats.dev/api/sparkline?username=skyRolly&theme=sunset&days=90&width=496&height=140"
     alt="Contribution Sparkline"
   />
 </div>
