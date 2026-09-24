@@ -21,7 +21,7 @@ You can click the Preview link to take a look at your changes.
 </div>
 <div align="center">
   <img
-    src="https://ghstats.dev/api/langs?username=skyRolly&theme=sunset"
+    src="https://ghstats.dev/api/langs?username=skyRolly&theme=sunset&max_langs=9"
     alt="Top Languages"
   />
 </div>
