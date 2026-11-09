@@ -16,23 +16,22 @@ site built from the repository's Markdown.
 
 ```
 README.md                          # Profile README — shown on the GitHub profile page
-.github/workflows/jekyll-gh-pages.yml  # Builds & deploys the repo to GitHub Pages
+CLAUDE.md                          # Repository maintenance guidance
 ```
 
 ## How content is published
 
 - **Profile page**: GitHub renders `README.md` directly on
   `https://github.com/skyRolly`. Any push to `main` updates it.
-- **GitHub Pages**: `.github/workflows/jekyll-gh-pages.yml` builds the repo with
-  Jekyll (`source: ./`) and deploys to GitHub Pages.
-  - Triggers: push to `main`, or manual `workflow_dispatch` from the Actions tab.
-  - Concurrency is limited to one deployment at a time (`group: "pages"`,
-    `cancel-in-progress: true`).
+- **GitHub Pages**: GitHub's built-in `pages build and deployment` workflow
+  builds and deploys the `main` branch using Jekyll. The repository's Pages
+  publishing source is managed by GitHub; no custom Actions workflow is needed.
   - There is no `_config.yml` or other Jekyll source, so the build uses defaults.
+
 
 ## Conventions
 
-- **Default branch is `main`.** The Pages workflow only deploys from `main`.
+- **Default branch is `main`.** Pages publishes from `main` through GitHub's built-in workflow.
 - Keep `README.md` profile-appropriate — it is public and the first thing
   visitors see. Edits are content/copy changes, not code.
 - The HTML comment block at the top of `README.md` is GitHub's profile-repo
@@ -46,5 +45,5 @@ README.md                          # Profile README — shown on the GitHub prof
 - No install, build, lint, or test commands exist or are needed for local edits.
 - To preview Pages output you would render the repo with Jekyll locally, but for
   simple README edits the GitHub-rendered preview is sufficient.
-- Validate the workflow YAML if you edit `.github/workflows/jekyll-gh-pages.yml`
-  (e.g. with a YAML linter); a broken workflow blocks Pages deployment.
+- After a push to `main`, check that GitHub's `pages build and deployment` workflow succeeds.
+- Do not add a second Pages deployment workflow unless the publishing source and deployment approach are intentionally changed.
