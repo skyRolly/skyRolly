@@ -1,25 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="148" viewBox="0 0 495 148" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="150" viewBox="0 0 495 150" role="img" aria-labelledby="title description">
   <title id="title">skyRolly</title>
   <desc id="description">Audio engineering and software development, with a purple, magenta, and coral sunset gradient and abstract waveform.</desc>
   <defs>
-    <linearGradient id="sky" x1="0%" y1="0%" x2="18%" y2="100%">
-      <stop offset="0%" stop-color="#7214aa"/>
-      <stop offset="28%" stop-color="#a719a8"/>
-      <stop offset="58%" stop-color="#ee26a9"/>
-      <stop offset="82%" stop-color="#fb5982"/>
-      <stop offset="100%" stop-color="#fb8851"/>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="16%" y2="100%">
+      <stop offset="0%" stop-color="#6516a2"/>
+      <stop offset="28%" stop-color="#8915a4"/>
+      <stop offset="56%" stop-color="#bd198f"/>
+      <stop offset="78%" stop-color="#e72e88"/>
+      <stop offset="100%" stop-color="#ff8858"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffc9dc" stop-opacity=".46"/>
+      <stop offset="23%" stop-color="#ffc9dc" stop-opacity=".20"/>
+      <stop offset="33%" stop-color="#ffc9dc" stop-opacity="0"/>
+      <stop offset="67%" stop-color="#ffc9dc" stop-opacity="0"/>
+      <stop offset="77%" stop-color="#ffc9dc" stop-opacity=".20"/>
+      <stop offset="100%" stop-color="#ffc9dc" stop-opacity=".46"/>
     </linearGradient>
     <radialGradient id="focus">
-      <stop offset="0%" stop-color="#321044" stop-opacity=".55"/>
+      <stop offset="0%" stop-color="#321044" stop-opacity=".48"/>
+      <stop offset="78%" stop-color="#321044" stop-opacity=".23"/>
       <stop offset="100%" stop-color="#321044" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <rect x=".5" y=".5" width="494" height="147" rx="9" fill="url(#sky)" stroke="#a94aab"/>
-  <path d="M16.0 73.0v4.0 M21.5 65.4v19.1 M27.0 69.4v11.3 M32.5 68.7v12.7 M38.0 69.5v11.0 M43.5 72.0v5.9 M49.0 68.1v13.8 M54.5 69.5v11.0 M60.0 60.4v29.2 M65.5 60.0v30.0 M71.0 61.3v27.4 M76.5 53.3v43.5 M82.0 69.8v10.5 M87.5 58.4v33.2 M93.0 67.0v16.0 M98.5 69.5v11.0 M104.0 66.8v16.3 M109.5 68.1v13.8 M115.0 59.1v31.9 M120.5 68.6v12.9 M126.0 60.1v29.8 M131.5 64.4v21.2 M137.0 67.4v15.3 M142.5 66.6v16.8 M148.0 72.6v4.8 M153.5 72.1v5.8 M159.0 72.3v5.4 M164.5 70.0v10.1 M170.0 67.7v14.6 M175.5 69.9v10.2 M181.0 62.4v25.3 M186.5 70.2v9.7 M192.0 61.8v26.4 M197.5 65.3v19.5 M203.0 67.3v15.4 M208.5 68.6v12.7 M214.0 70.3v9.3 M219.5 62.1v25.8 M225.0 64.7v20.5 M230.5 57.0v36.0 M236.0 55.0v40.1 M241.5 63.6v22.7 M247.0 54.4v41.3 M252.5 68.9v12.2 M258.0 64.0v21.9 M263.5 69.6v10.7 M269.0 70.7v8.6 M274.5 67.3v15.4 M280.0 71.4v7.2 M285.5 64.2v21.6 M291.0 69.4v11.1 M296.5 66.4v17.3 M302.0 67.2v15.6 M307.5 70.6v8.7 M313.0 68.6v12.8 M318.5 72.5v5.0 M324.0 71.7v6.5 M329.5 69.7v10.6 M335.0 66.9v16.2 M340.5 60.9v28.2 M346.0 69.0v12.1 M351.5 54.7v40.5 M357.0 64.9v20.2 M362.5 58.9v32.2 M368.0 62.3v25.4 M373.5 68.1v13.9 M379.0 69.5v11.1 M384.5 69.7v10.5 M390.0 60.0v30.0 M395.5 62.6v24.9 M401.0 60.9v28.2 M406.5 57.8v34.4 M412.0 69.2v11.6 M417.5 62.1v25.8 M423.0 70.2v9.7 M428.5 70.0v10.0 M434.0 72.7v4.5 M439.5 71.8v6.5 M445.0 68.4v13.2 M450.5 72.6v4.7 M456.0 65.4v19.2 M461.5 67.9v14.2 M467.0 66.2v17.6 M472.5 64.3v21.5 M478.0 70.3v9.3" fill="none" stroke="#fff0e6" stroke-width="1.5" stroke-linecap="round" opacity=".26"/>
-  <ellipse cx="247.5" cy="74" rx="230" ry="70" fill="url(#focus)"/>
-  <g text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#fff7f3">
-    <text x="247.5" y="66" font-size="35" font-weight="700" letter-spacing=".7">skyRolly</text>
-    <text x="247.5" y="89" font-size="12" font-weight="600">Audio Engineering · Software Development</text>
-    <text x="247.5" y="108" font-size="11" font-weight="500">Mixing &amp; Mastering · Audio DSP · C++ / JUCE</text>
+  <rect x=".5" y=".5" width="494" height="149" rx="9" fill="url(#sky)" stroke="#b74eae"/>
+  <ellipse cx="247.5" cy="74" rx="236" ry="70" fill="url(#focus)"/>
+  <path d="M16.0 73.0v4.0 M21.5 65.4v19.1 M27.0 69.4v11.3 M32.5 68.7v12.7 M38.0 69.5v11.0 M43.5 72.0v5.9 M49.0 68.1v13.8 M54.5 69.5v11.0 M60.0 60.4v29.2 M65.5 60.0v30.0 M71.0 61.3v27.4 M76.5 53.3v43.5 M82.0 69.8v10.5 M87.5 58.4v33.2 M93.0 67.0v16.0 M98.5 69.5v11.0 M104.0 66.8v16.3 M109.5 68.1v13.8 M115.0 59.1v31.9 M120.5 68.6v12.9 M126.0 60.1v29.8 M131.5 64.4v21.2 M137.0 67.4v15.3 M142.5 66.6v16.8 M148.0 72.6v4.8 M153.5 72.1v5.8 M159.0 72.3v5.4 M164.5 70.0v10.1 M170.0 67.7v14.6 M175.5 69.9v10.2 M181.0 62.4v25.3 M186.5 70.2v9.7 M192.0 61.8v26.4 M197.5 65.3v19.5 M203.0 67.3v15.4 M208.5 68.6v12.7 M214.0 70.3v9.3 M219.5 62.1v25.8 M225.0 64.7v20.5 M230.5 57.0v36.0 M236.0 55.0v40.1 M241.5 63.6v22.7 M247.0 54.4v41.3 M252.5 68.9v12.2 M258.0 64.0v21.9 M263.5 69.6v10.7 M269.0 70.7v8.6 M274.5 67.3v15.4 M280.0 71.4v7.2 M285.5 64.2v21.6 M291.0 69.4v11.1 M296.5 66.4v17.3 M302.0 67.2v15.6 M307.5 70.6v8.7 M313.0 68.6v12.8 M318.5 72.5v5.0 M324.0 71.7v6.5 M329.5 69.7v10.6 M335.0 66.9v16.2 M340.5 60.9v28.2 M346.0 69.0v12.1 M351.5 54.7v40.5 M357.0 64.9v20.2 M362.5 58.9v32.2 M368.0 62.3v25.4 M373.5 68.1v13.9 M379.0 69.5v11.1 M384.5 69.7v10.5 M390.0 60.0v30.0 M395.5 62.6v24.9 M401.0 60.9v28.2 M406.5 57.8v34.4 M412.0 69.2v11.6 M417.5 62.1v25.8 M423.0 70.2v9.7 M428.5 70.0v10.0 M434.0 72.7v4.5 M439.5 71.8v6.5 M445.0 68.4v13.2 M450.5 72.6v4.7 M456.0 65.4v19.2 M461.5 67.9v14.2 M467.0 66.2v17.6 M472.5 64.3v21.5 M478.0 70.3v9.3" fill="none" stroke="url(#wave)" stroke-width="1.5" stroke-linecap="round"/>
+  <g text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="247.5" y="62" fill="#fff9f7" font-size="39" font-weight="700" letter-spacing=".4">skyRolly</text>
+    <text x="247.5" y="88" fill="#fff5f7" font-size="13" font-weight="600">Audio Engineering · Software Development</text>
+    <text x="247.5" y="109" fill="#fff5f7" font-size="12" font-weight="500">Mixing &amp; Mastering · Audio DSP · C++ / JUCE</text>
   </g>
 </svg>
